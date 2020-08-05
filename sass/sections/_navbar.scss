@@ -1,5 +1,5 @@
 .navbar {
-	width: 65px;
+	width: 60px;
 	top: 0;
 
 	.logo-section {
@@ -13,7 +13,7 @@
 	.logo {
 		margin-top: 30px;
 		display: inline-block;
-		font-size: 40px;
+		font-size: 36px;
 	}
 
 	.burger {
@@ -25,22 +25,23 @@
 
 	.list {
 		padding: 0 0 40px 0;
+		margin: 0;
 	}
 	
 	.icon {
-		font-size: 32px;
+		font-size: 28px;
 		margin-left: 9px ;
 	}
 
 	.subpage {
 		position: absolute;
-		left: 70px;
+		left: 60px;
 		top: 15px;
 		text-align: left;
 		white-space: nowrap;
-		font-size: 18px;
+		font-size: 16px;
 		text-transform: uppercase;
-		font-weight: medium;
+		font-weight: 300;
 	}
 
 	a {
@@ -57,17 +58,59 @@
 		display: none;
 	}
 
+	.smile {
+		padding: 40px 0;
+		.icon-day {
+			font-size: 32px;
+			position: relative;
+		}
+		.icon-night {
+			font-size: 32px;
+			position: relative;
+		}
+		.zip {
+			position: relative;
+			display: none;
+			left: 63px;
+			.circle {
+				position: absolute;
+				border-radius: 50%;
+				height: 10px;
+				width: 10px;
+			}
+		}
+		.icon-smile {
+			font-size: 45px;
+			line-height: 20px;
+		}
+	 }
+
 	&:hover {
-		width: 220px;
+		width: 200px;
 
 		.logo {
 			margin-top: 40px;
-			font-size: 90px;
+			font-size: 80px;
 			margin-left: 30px;
 		}
 
 		.hidden {
 			display: inline-block;
+		}
+
+		.smile {
+			.icon-day {
+				display: inline-block;
+				left: 35px;
+			}
+			.icon-night {
+				left: 65px;
+				display: inline-block;
+
+			}
+			.zip {
+				display: inline-block;
+			}
 		}
 	}
 }
