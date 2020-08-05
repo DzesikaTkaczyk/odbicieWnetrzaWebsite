@@ -35,6 +35,8 @@
 <glyph glyph-name="righthover" unicode="&#xe810;" d="M499 348l-488 488v-976z" horiz-adv-x="510" />
 
 <glyph glyph-name="right" unicode="&#xe811;" d="M150 698v-700l64 64v572z m-139 139l0-1v-976l0-1 63 63v851z m481-481l-64 64v-145l64 64 8 9z m-204 204v-424l64 64v296z" horiz-adv-x="510" />
+
+<glyph glyph-name="menu" unicode="&#xf0c9;" d="M857 100v-71q0-15-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 25t25 11h785q15 0 26-11t10-25z m0 286v-72q0-14-10-25t-26-10h-785q-15 0-25 10t-11 25v72q0 14 11 25t25 10h785q15 0 26-10t10-25z m0 285v-71q0-14-10-25t-26-11h-785q-15 0-25 11t-11 25v71q0 15 11 26t25 10h785q15 0 26-10t10-26z" horiz-adv-x="857.1" />
 </font>
 </defs>
 </svg>

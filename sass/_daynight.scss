@@ -1,5 +1,5 @@
 .day_mode {
-    background-color: $navbar-night-color;
+    background-color: $white;
     color: $black;
     .navbar {
         background-color: $navbar-day-color;
@@ -10,30 +10,16 @@
 
         a { color: $white; }
 
-        li { 
-            &:hover {
-                background-color: $nav-hover-day;
-            }
-        }
-
         .active {
             background-color: $white;
-            &:hover {background-color: $white;}
             a {
                 color: $navbar-day-color;
-                &:hover {color: $navbar-day-color;}
             }
         }
 
         .smile {
-            background-color: $white;
-            color: $navbar-day-color;
             .icon-day {
-                left: 8px;
                 display: inline-block;
-            }
-            .icon-night {
-                display: none;
             }
         }
         .circle {
@@ -57,31 +43,19 @@
 
         a { color: $navbar-day-color; }
 
-        li { 
-            &:hover {
-                background-color: $nav-hover-night;
-            }
-        }
-
         .active {
             background-color: $navbar-day-color;
-            &:hover { background-color: $navbar-day-color; }
             a {
                 color: $navbar-night-color;
-                &:hover { color: $navbar-night-color; }
             }
         }
 
         .smile {
-            background-color: $night-background;
             color: $navbar-day-color;
             .icon-day {
                 color: $navbar-day-color;
-                left: 8px;
-                display: none;
             }
             .icon-night {
-                left: 8px;
                 display: inline-block;
             }
         }
@@ -89,7 +63,100 @@
             border: 2px solid $navbar-night-color;
             background-color: $navbar-night-color;
             top: 16px;
-			left: 11px;
+			right: 11px;
+        }
+    }
+}
+
+@media(min-width: 768px) {
+    .day_mode {
+        .navbar {
+            .smile_wrapper{
+                background-color: $white;
+            }
+            .smile {
+                left: 8px;
+                color: $navbar-day-color;
+                .icon-night {
+                    display: none;
+                }
+            }
+
+            li { 
+                &:hover {
+                    background-color: $nav-hover-day;
+                }
+            }
+
+            .active {
+                &:hover {background-color: $white;}
+                a {
+                    &:hover {color: $navbar-day-color;}
+                }
+            }
+        }
+    }
+
+    .night_mode {
+        .navbar {
+            li { 
+                &:hover {
+                    background-color: $nav-hover-night;
+                }
+            }
+
+            .active {
+                &:hover { background-color: $navbar-day-color; }
+                a {
+                    &:hover { color: $navbar-night-color; }
+                }
+            }
+
+            .smile_wrapper{
+                background-color: $night-background;
+            }
+
+            .smile {
+                .icon-day {
+                    display: none;
+                    left: 8px;
+                }
+                .icon-night {
+                    left: 8px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .day_mode {
+        .navbar {
+            border-bottom: 1px solid $navbar-day-color;
+            .smile {
+                color: $white;
+                .icon-night {
+                    display: inline-block;
+                }
+
+                .circle {
+                    border: 2px solid $navbar-day-color;
+                    background-color: $navbar-day-color;
+                }
+            }
+        }
+    }
+
+    .night_mode {
+        .navbar {
+            border-bottom: 1px solid $navbar-night-color;
+            .smile {
+                background-color: $navbar-night-color;
+                justify-content: center;
+                .icon-day {
+                    display: inline-block;
+                }
+            }
         }
     }
 }

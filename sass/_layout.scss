@@ -16,6 +16,11 @@
   flex-wrap: wrap;
 }
 
+.content {
+  max-width: 1170px;
+  width: auto;
+}
+
 @mixin grid($prefix) {
   @for $i from 1 through 12 {
     .col-#{$prefix}-#{$i} {
