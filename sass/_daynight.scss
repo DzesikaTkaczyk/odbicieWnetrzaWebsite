@@ -1,0 +1,94 @@
+.day_mode {
+    background-color: $white;
+    color: $black;
+    .navbar {
+        background-color: $navbar-day-color;
+
+        .logo { color: $white; }
+
+        .burger { color: $white; }
+
+        a { color: $white; }
+
+        .active {
+            background-color: $white;
+            a {
+                color: $navbar-day-color;
+            }
+        }
+
+        .smile {
+            background-color: $white;
+            color: $navbar-day-color;
+            padding-top: 30px;
+            .icon-day {
+                font-size: 32px;
+                position: relative;
+                left: 12px;
+            }
+            .icon-night {
+                font-size: 32px;
+                position: relative;
+                display: none;
+            }
+            .zip{
+                display: none
+            }
+            .icon-smile {
+                font-size: 44px;
+                line-height: 20px;
+            }
+        }
+        &:hover {
+            .smile {
+                .icon-day {
+                    left: 40px;
+                }
+                .icon-night {
+                    left: 70px;
+                    display: inline-block;
+
+                }
+                .zip{
+                    position: relative;
+                    display: inline-block;
+                    left: 73px;
+                    .circle {
+                        position: absolute;
+                        top: 2px;
+                        right:2px;
+                        border: 2px solid $white;
+                        background-color: $white;
+                        border-radius: 50%;
+                        height: 10px;
+                        width: 10px;
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+.night_mode {
+    background-color: $navbar-night-color;
+    color: $white;
+    .navbar {
+        background-color: $navbar-night-color;
+
+        .logo { color: $navbar-day-color;
+            ; }
+
+        .burger { color: $navbar-day-color; }
+
+        a { color: $navbar-day-color; }
+
+        .active {
+            background-color: $navbar-day-color;
+            a {
+                color: $navbar-night-color;
+            }
+        }
+    }
+}

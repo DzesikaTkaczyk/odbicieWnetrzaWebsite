@@ -1,0 +1,73 @@
+.navbar {
+	width: 65px;
+	top: 0;
+
+	.logo-section {
+		display: flex;
+		//justify-content: space-between;
+		flex-wrap: nowrap;
+		width: 100%;
+		height: 180px;
+	}
+
+	.logo {
+		margin-top: 30px;
+		display: inline-block;
+		font-size: 40px;
+	}
+
+	.burger {
+		margin-right: 16px;
+		margin-left: 17px;
+		line-height: 60px; 
+		display: none;
+	}
+
+	.list {
+		padding: 0 0 40px 0;
+	}
+	
+	.icon {
+		font-size: 32px;
+		margin-left: 9px ;
+	}
+
+	.subpage {
+		position: absolute;
+		left: 70px;
+		top: 15px;
+		text-align: left;
+		white-space: nowrap;
+		font-size: 18px;
+		text-transform: uppercase;
+		font-weight: medium;
+	}
+
+	a {
+		text-decoration: none;
+	}
+	
+	li {
+		padding: 8px 0;
+		white-space: nowrap;
+		position: relative;
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	&:hover {
+		width: 220px;
+
+		.logo {
+			margin-top: 40px;
+			font-size: 90px;
+			margin-left: 30px;
+		}
+
+		.hidden {
+			display: inline-block;
+		}
+	}
+}

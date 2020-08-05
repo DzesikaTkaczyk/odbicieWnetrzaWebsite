@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'odbiciewnetrza';
+  src: url('../font/odbiciewnetrza.eot?31448218');
+  src: url('../font/odbiciewnetrza.eot?31448218#iefix') format('embedded-opentype'),
+       url('../font/odbiciewnetrza.woff2?31448218') format('woff2'),
+       url('../font/odbiciewnetrza.woff?31448218') format('woff'),
+       url('../font/odbiciewnetrza.ttf?31448218') format('truetype'),
+       url('../font/odbiciewnetrza.svg?31448218#odbiciewnetrza') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'odbiciewnetrza';
+    src: url('../font/odbiciewnetrza.svg?31448218#odbiciewnetrza') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "odbiciewnetrza";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-logo1:before { content: '\e800'; } /* '' */
+.icon-wnetrza:before { content: '\e801'; } /* '' */
+.icon-day:before { content: '\e803'; } /* '' */
+.icon-night:before { content: '\e804'; } /* '' */
+.icon-smile:before { content: '\e805'; } /* '' */
+.icon-pracownia:before { content: '\e806'; } /* '' */
+.icon-kontakt:before { content: '\e809'; } /* '' */
+.icon-logo2:before { content: '\e80a'; } /* '' */
+.icon-domy:before { content: '\e80b'; } /* '' */
+.icon-projkety:before { content: '\e80c'; } /* '' */
+.icon-publikacje:before { content: '\e80d'; } /* '' */
+.icon-left:before { content: '\e80e'; } /* '' */
+.icon-lefthover:before { content: '\e80f'; } /* '' */
+.icon-righthover:before { content: '\e810'; } /* '' */
+.icon-right:before { content: '\e811'; } /* '' */
