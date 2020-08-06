@@ -1,0 +1,102 @@
+.project_page {
+    .banner {
+        width: 100%;
+        overflow: hidden;
+        img {
+            position: relative;
+        }
+    }
+
+    .big_icon {
+        font-size: 200px;
+        z-index: -1;
+        position: absolute;
+        right:-5%;
+        top: 20px;
+        color: $navbar-day-color;
+        opacity: 0.8;
+    }
+
+    .text {
+        margin: 50px 0;
+        position: relative;
+        h1 {
+            font-size: 40px;
+            font-weight: 300;
+            line-height: 50px;
+        }
+
+        .location {
+            font-size: 16px;
+            font-weight: 600;
+            text-align: right;
+
+        }
+    }
+
+    .description {
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: justify;
+
+    }
+
+    .scheme {
+        width: 100%;
+        margin-bottom: 50px;
+        img {
+            width: 100%;
+        }
+    }
+
+    .photo{
+        margin: 15px 10px;
+        img {
+            width: 100%
+        }
+    }
+
+    .carousel-text {
+        height: 100%;
+        margin: 0 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .signature {
+        margin: 50px 0;
+        text-align: right;
+        font-size: 16px;
+        font-weight: 300;
+    }
+}
+
+@media(min-width: 769px) {
+    .project_page {
+        .banner {
+            width: 100%;
+            height: 65%;
+            img {
+                width: 100%;
+                bottom: 100px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .project_page {
+        .banner {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .carousel-text {
+            margin-top: 20px;
+        }
+    }
+}

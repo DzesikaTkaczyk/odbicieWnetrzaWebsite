@@ -1,5 +1,7 @@
 .navbar {
 	top: 0;
+	z-index: 10;
+	position: fixed;
 	.logo-section {
 		display: flex;
 		justify-content: space-between;
@@ -72,20 +74,20 @@
 	}
 }
 
-@media(min-width: 768px) {
+@media(min-width: 769px) {
 	.navbar {
 		width: 58px;
-		position: sticky;
+		display: inline-block;
 		.burger { 
 			display: none;
 		}
 
 		.logo {
-			margin-top: 30px;
+			margin-top: 31px;
 		}
 
 		.list {
-			padding: 0 0 40px 0;
+			padding: 0 0 42px 0;
 		}
 
 		.logo-section {
@@ -102,28 +104,29 @@
 
 		&:hover {
 			width: 200px;
-			transition: 0.2s;
+			transition: 0.1s;
 			transition-timing-function: ease-out;
 	
 			.logo {
 				margin-top: 40px;
 				font-size: 80px;
 				margin-left: 30px;
-				transition: 0.2s;
+				transition: 0.1s;
 			}
 	
 			.hidden {
 				display: inline-block;
-				transition: 0.2s;
+				transition: 0.1s;
 			}
 	
 			.smile {
 				.icon-day {	
+					transition: 0.1s;
 					display: inline-block;
 					left: 35px;
 				}
 				.icon-night {
-					transition: 0.2s;
+					transition: 0.1s;
 					left: 110px;
 					display: inline-block;
 	
@@ -136,16 +139,18 @@
 	}
 }
 
-@media(max-width: 767px) {
+@media(max-width: 768px) {
 	.navbar {
 		width: 100%;
 		.logo {
-			margin: 10px 0 15px 10px;
+			margin: 10px 0 10px 10px;
 		}
 		.burger {
 			font-size: 26px;
-			margin: 12px 15px 0 0;
 			display: inline-block;
+			position: relative;
+			right: 8vw;
+			top: 15px;
 		}
 
 		.list {
