@@ -921,6 +921,11 @@ body {
   left: 11px;
 }
 
+.day_mode .footer {
+  border-color: #0c314c;
+  opacity: 0.9;
+}
+
 .night_mode {
   background-color: #082a43;
   color: #fff;
@@ -967,6 +972,11 @@ body {
   background-color: #0c314c;
   top: 16px;
   right: 11px;
+}
+
+.night_mode .footer {
+  border-color: #fff;
+  opacity: 0.4;
 }
 
 @media (min-width: 769px) {
@@ -1223,6 +1233,28 @@ body {
   .navbar .show_mobile_menu {
     display: block;
   }
+}
+
+.footer {
+  padding: 5px 0 10px 0;
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 13px;
+  border-width: 1px 0 0;
+  border-style: solid;
+  margin-top: 50px;
+}
+
+.footer .name {
+  font-weight: 300;
+  margin-right: 8px;
+}
+
+.footer .desc {
+  font-weight: 300;
 }
 
 /* Pages / Views */
