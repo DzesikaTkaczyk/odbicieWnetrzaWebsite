@@ -923,7 +923,7 @@ body {
 
 .day_mode .footer {
   border-color: #0c314c;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .night_mode {
@@ -1362,11 +1362,14 @@ body {
   .project_page .banner img {
     width: 100%;
   }
+  .project_page .text h1 {
+    margin-bottom: 30px;
+  }
   .project_page .photo {
     margin: 15px 0;
   }
   .project_page .carousel-text {
-    margin: 20px 5px;
+    padding: 20px 5px 35px;
   }
   .big_icon {
     display: none;

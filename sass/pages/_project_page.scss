@@ -108,12 +108,18 @@
             }
         }
 
+        .text {
+            h1{
+                margin-bottom: 30px;
+            }
+        }
+
         .photo{
             margin: 15px 0;
         }
 
         .carousel-text {
-            margin: 20px 5px;
+            padding: 20px 5px 35px; 
         }
     }
     .big_icon{
