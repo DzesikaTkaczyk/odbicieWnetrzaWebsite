@@ -2,7 +2,13 @@
     background-color: $white;
     color: $black;
     .navbar {
-        background-color: $navbar-day-color;
+        .logo-section {
+            background-color: $navbar-day-color;
+        }
+
+        .list {
+            background-color: $navbar-day-color;
+        }
 
         .logo { color: $white; }
 
@@ -30,7 +36,7 @@
         }
     }
 
-    .footer{
+    .footer {
         border-color: $navbar-night-color;
         opacity:0.8;
     }
@@ -40,7 +46,13 @@
     background-color: $night-background;
     color: $white;
     .navbar {
-        background-color: $navbar-night-color;
+        .logo-section {
+            background-color: $night-background;
+        }
+
+        .list {
+            background-color: $night-background;
+        }
 
         .logo { color: $navbar-day-color; }
 
@@ -81,9 +93,6 @@
 @media(min-width: 769px) {
     .day_mode {
         .navbar {
-            .smile_wrapper{
-                background-color: $white;
-            }
             .smile {
                 left: 8px;
                 color: $navbar-day-color;
@@ -122,10 +131,6 @@
                 }
             }
 
-            .smile_wrapper{
-                background-color: $night-background;
-            }
-
             .smile {
                 .icon-day {
                     display: none;
@@ -154,18 +159,25 @@
                     background-color: $navbar-day-color;
                 }
             }
+            .smile_wrapper {
+                background-color: $navbar-day-color;
+            }
         }
     }
 
     .night_mode {
         .navbar {
-            border-bottom: 1px solid $navbar-night-color;
+            border-bottom: 1px solid $night-background;
             .smile {
-                background-color: $navbar-night-color;
+                background-color: $night-background;
                 justify-content: center;
                 .icon-day {
                     display: inline-block;
                 }
+            }
+
+            .smile_wrapper {
+                background-color: $night-background;
             }
         }
     }

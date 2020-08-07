@@ -1,0 +1,21 @@
+.big_icon {
+    font-size: 200px;
+    z-index: -1;
+    position: sticky;
+    right: 0;
+    top: 10px;
+    color: $navbar-day-color;
+        
+    .icon-projkety {
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+
+}
+
+@media(max-width: 768px) {   
+    .big_icon{
+        display: none;
+    }
+}
