@@ -349,6 +349,13 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  margin: 10px 0 0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -933,6 +940,11 @@ a {
   opacity: 0.8;
 }
 
+.day_mode .welcome_section .icon-logo1 {
+  color: #f8676c;
+  opacity: 0.6;
+}
+
 .night_mode {
   background-color: #082a43;
   color: #fff;
@@ -988,6 +1000,10 @@ a {
 .night_mode .footer {
   border-color: #fff;
   opacity: 0.4;
+}
+
+.night_mode .welcome_section .icon-logo1 {
+  color: #f8676c;
 }
 
 @media (min-width: 769px) {
@@ -1110,6 +1126,57 @@ a {
 @media (max-width: 768px) {
   .big_icon {
     display: none;
+  }
+}
+
+.welcome_section {
+  padding: 0 0 50px;
+  width: 100%;
+  border-bottom: solid;
+  border-width: 0 0 1px 0;
+  position: relative;
+}
+
+.welcome_section h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 70px;
+}
+
+.welcome_section h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.welcome_section .icon-logo1 {
+  z-index: -1;
+  text-align: center;
+  font-size: 200px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+}
+
+@media (min-width: 769px) {
+  .welcome_section h1 {
+    margin: 90px 0 20px;
+  }
+  .welcome_section .icon-logo1 {
+    right: 45px;
+    bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome_section h1 {
+    margin: 70px 0 20px;
+  }
+  .welcome_section .icon-logo1 {
+    right: 45px;
+    bottom: 50px;
   }
 }
 
@@ -1397,15 +1464,6 @@ a {
   }
 }
 
-.all_projects_page .welcome_section {
-  height: 200px;
-  width: 100%;
-}
-
-.all_projects_page .net {
-  margin: 50px 0 150px;
-}
-
 .all_projects_page .column {
   -ms-flex: 50%;
       flex: 50%;
@@ -1439,6 +1497,9 @@ a {
 @media (min-width: 769px) {
   .all_projects_page {
     margin: 0 20px;
+  }
+  .all_projects_page .net {
+    margin: 50px 0 120px;
   }
   .all_projects_page .column {
     -ms-flex: 50%;
@@ -1484,6 +1545,9 @@ a {
   .all_projects_page {
     margin: 0 5px;
   }
+  .all_projects_page .net {
+    margin: 40px 0 10px;
+  }
   .all_projects_page .column {
     -ms-flex: 100%;
         flex: 100%;
@@ -1492,7 +1556,7 @@ a {
   .all_projects_page .column img {
     padding: 0 5px;
   }
-  .background_hover {
+  .all_projects_page .background_hover {
     width: 100%;
     display: none;
     -ms-flex-align: center;
@@ -1500,7 +1564,7 @@ a {
     -ms-flex-pack: center;
         justify-content: center;
   }
-  .background_hover p {
+  .all_projects_page .background_hover p {
     margin: 0;
     padding: 8px 10px 20px 10px;
     text-align: center;
@@ -1509,6 +1573,9 @@ a {
     font-weight: 400;
     color: #000;
     text-decoration: none;
+  }
+  .all_projects_page h2 {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=style.prefixed.css.map */

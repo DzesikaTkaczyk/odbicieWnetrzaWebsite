@@ -40,6 +40,13 @@
         border-color: $navbar-night-color;
         opacity:0.8;
     }
+
+    .welcome_section {
+        .icon-logo1 {
+            color: $navbar-day-color;
+            opacity: 0.6;
+        }
+    }
 }
 
 .night_mode {
@@ -87,6 +94,12 @@
     .footer {
         border-color: $white;
         opacity:0.4;
+    }
+
+    .welcome_section {
+        .icon-logo1 {
+            color: $navbar-day-color;
+        }
     }
 }
 
