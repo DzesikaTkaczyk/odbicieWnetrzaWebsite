@@ -842,7 +842,7 @@ h2 {
 
 .day_mode .welcome_section .icon-logo1 {
   color: #f8676c;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .night_mode {
@@ -1424,6 +1424,9 @@ h2 {
   .all_projects_page .thumbnail:hover .background_hover {
     display: flex;
   }
+  .all_projects_page .big_icon {
+    top: 120px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1459,6 +1462,10 @@ h2 {
   .all_projects_page h2 {
     text-align: center;
   }
+}
+
+.publikacje {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
