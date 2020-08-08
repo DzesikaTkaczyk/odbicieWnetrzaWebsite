@@ -345,6 +345,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1483,6 +1487,25 @@ body {
   }
   .all_projects_page .column img {
     padding: 0 10px;
+  }
+  .background_hover {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .background_hover p {
+    margin: 0;
+    padding: 8px 10px 20px 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
   }
 }
 /*# sourceMappingURL=style.prefixed.css.map */

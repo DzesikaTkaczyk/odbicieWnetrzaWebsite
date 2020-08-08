@@ -104,6 +104,23 @@
             }
         }
     }
+
+    .background_hover {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin: 0;
+            padding: 8px 10px 20px 10px;
+            text-align: center;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 400;
+            color: $black;
+            text-decoration: none;
+        }
+    }
 }
 
 //<img src="../images/miniaturki/1artystycznaPrzestrzen.jpg">
