@@ -1,7 +1,7 @@
 .day_mode {
     background-color: $white;
     color: $black;
-    .navbar {
+    .navbar1 {
         .logo-section {
             background-color: $navbar-day-color;
         }
@@ -20,6 +20,41 @@
             background-color: $white;
             a {
                 color: $navbar-day-color;
+            }
+        }
+
+        .smile {
+            .icon-day {
+                display: inline-block;
+            }
+        }
+        .circle {
+            border: 2px solid $white;
+            background-color: $white;
+            top: 16px;
+			left: 11px;
+        }
+    }
+
+    .navbar2 {
+        .logo-section {
+            background-color: $white;
+        }
+
+        .list {
+            background-color: $white;
+        }
+
+        .logo { color: $navbar-day-color; }
+
+        .burger { color: $navbar-day-color; }
+
+        a { color: $navbar-day-color; }
+
+        .active {
+            background-color: $navbar-day-color;
+            a {
+                color: $white;
             }
         }
 
@@ -105,7 +140,7 @@
 
 @media(min-width: 769px) {
     .day_mode {
-        .navbar {
+        .navbar1 {
             .smile {
                 left: 8px;
                 color: $navbar-day-color;
@@ -127,6 +162,33 @@
                 }
             }
         }
+
+        .navbar2 {
+            .smile {
+                left: 8px;
+                color: $navbar-day-color;
+                .icon-night {
+                    display: none;
+                }
+            }
+
+            li { 
+                &:hover {
+                    background-color: $nav-hover-day;
+                    a {
+                        color: $white;
+                    }
+                }
+            }
+
+            .active {
+                &:hover {background-color: $navbar-day-color;;}
+                a {
+                    &:hover {color: $white}
+                }
+            }
+        }
+
     }
 
     .night_mode {

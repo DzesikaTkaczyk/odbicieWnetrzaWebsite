@@ -1,56 +1,38 @@
 .welcome_section {
-    padding: 0 0 50px;
-    width: 100%;
     border-bottom: solid;
     border-width: 0 0 1px 0;
-    position: relative;
-    h1 {
-        text-align: center;
-        font-size: 60px;
-        font-weight: 100;
-        line-height: 70px;
+    //position: relative;
+    
+    .OWname {
+        width: 585px;
+        height: 291px;
+        position: relative;
     }
 
-    h3 {
-        text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 30px;
+    h1 {
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 35px;
+        position: absolute;
+        bottom: 20px;
     }
 
     .icon-logo1 {
-        z-index: -1;
-        text-align: center;
-        font-size: 200px;
         position: absolute;
-        margin: auto;
-        left: 0;
+        z-index: -1;
+        font-size: 200px;
+        right: 5px;
     }
 }
 
 
 @media (min-width: 769px) {
     .welcome_section {
-        h1 {
-            margin: 90px 0 20px; 
-        }
-        .icon-logo1 {
-            right: 45px;
-            bottom: 15px;
-        }
     }
 }
 
 
 @media (max-width: 768px) {
     .welcome_section {
-        h1 {
-            margin: 70px 0 20px; 
-        }
-
-        .icon-logo1 {
-            right: 45px;
-            bottom: 50px;
-        }
     }
 }
