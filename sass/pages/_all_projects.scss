@@ -23,6 +23,17 @@
 
     }
 
+    .baner-wrapper {
+        img {
+            width: 100%;
+        }
+    }
+
+    .line {
+        border-width: 0 0 1px 0;
+        border-style: solid;
+    }
+
     .thumbnail {
         position: relative;
         overflow: hidden;

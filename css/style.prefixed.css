@@ -1641,6 +1641,15 @@ h3 {
   width: 100%;
 }
 
+.all_projects_page .baner-wrapper img {
+  width: 100%;
+}
+
+.all_projects_page .line {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+}
+
 .all_projects_page .thumbnail {
   position: relative;
   overflow: hidden;
