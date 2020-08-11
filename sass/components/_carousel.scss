@@ -11,24 +11,27 @@
     }
 
     .button {
-        font-size: 35px;
         position: absolute;
-    }
-
-    .next-button {
-        right: -40px;
-
-    }
-
-    .prev-button {
-        position: absolute;
-        left: -40px;
     }
 }
 
 
 @media(min-width: 769px) {
     .carousel {
+        .button {
+            font-size: 35px;
+        }
+
+        .next-button {
+            right: -40px;
+    
+        }
+    
+        .prev-button {
+            position: absolute;
+            left: -40px;
+        }
+
         .right{
             .icon-righthover { display: none; }
             &:hover {
@@ -46,6 +49,20 @@
 }
 
 @media(max-width: 768px) {
-    .icon-lefthover { display: none; }
-    .icon-righthover { display: none; }
+    .carousel {
+        .button {
+            font-size: 25px;
+        }
+        .icon-lefthover { display: none; }
+        .icon-righthover { display: none; }
+        .next-button {
+            right: -30px;
+    
+        }
+    
+        .prev-button {
+            position: absolute;
+            left: -30px;
+        }
+    }
 }

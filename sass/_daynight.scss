@@ -1,86 +1,10 @@
 .day_mode {
     background-color: $white;
     color: $black;
-    .navbar1 {
-        .logo-section {
-            background-color: $navbar-day-color;
-        }
-
-        .list {
-            background-color: $navbar-day-color;
-        }
-
-        .logo { color: $white; }
-
-        .burger { color: $white; }
-
-        a { color: $white; }
-
-        .active {
-            background-color: $white;
-            a {
-                color: $navbar-day-color;
-            }
-        }
-
-        .smile {
-            .icon-day {
-                display: inline-block;
-            }
-        }
-        .circle {
-            border: 2px solid $white;
-            background-color: $white;
-            top: 16px;
-			left: 11px;
-        }
-    }
-
-    .navbar2 {
-        .logo-section {
-            background-color: $white;
-        }
-
-        .list {
-            background-color: $white;
-        }
-
-        .logo { color: $navbar-day-color; }
-
-        .burger { color: $navbar-day-color; }
-
-        a { color: $navbar-day-color; }
-
-        .active {
-            background-color: $navbar-day-color;
-            a {
-                color: $white;
-            }
-        }
-
-        .smile {
-            .icon-day {
-                display: inline-block;
-            }
-        }
-        .circle {
-            border: 2px solid $white;
-            background-color: $white;
-            top: 16px;
-			left: 11px;
-        }
-    }
 
     .footer {
         border-color: $navbar-night-color;
         opacity:0.8;
-    }
-
-    .welcome_section {
-        .icon-logo1 {
-            color: $navbar-day-color;
-            opacity: 0.7;
-        }
     }
 
     .carousel{
@@ -141,13 +65,7 @@
         opacity:0.4;
     }
 
-    .welcome_section {
-        .icon-logo1 {
-            color: $navbar-day-color;
-        }
-    }
-
-    .carousel {
+    .carousel{
         .button{
             color: $navbar-day-color;
         }
@@ -161,6 +79,39 @@
 @media(min-width: 769px) {
     .day_mode {
         .navbar1 {
+            .logo-section {
+                background-color: $navbar-day-color;
+            }
+    
+            .list {
+                background-color: $navbar-day-color;
+            }
+    
+            .logo { color: $white; }
+    
+            .burger { color: $white; }
+    
+            a { color: $white; }
+    
+            .active {
+                background-color: $white;
+                a {
+                    color: $navbar-day-color;
+                }
+            }
+    
+            .smile {
+                .icon-day {
+                    display: inline-block;
+                }
+            }
+            .circle {
+                border: 2px solid $white;
+                background-color: $white;
+                top: 16px;
+                left: 11px;
+            }
+
             .smile {
                 left: 8px;
                 color: $navbar-day-color;
@@ -184,6 +135,38 @@
         }
 
         .navbar2 {
+            .logo-section {
+                background-color: $white;
+            }
+    
+            .list {
+                background-color: $white;
+            }
+    
+            .logo { color: $navbar-day-color; }
+    
+            .burger { color: $navbar-day-color; }
+    
+            a { color: $navbar-day-color; }
+    
+            .active {
+                background-color: $navbar-day-color;
+                a {
+                    color: $white;
+                }
+            }
+    
+            .smile {
+                .icon-day {
+                    display: inline-block;
+                }
+            }
+            .circle {
+                border: 2px solid $white;
+                background-color: $white;
+                top: 16px;
+                left: 11px;
+            }
             .smile {
                 left: 8px;
                 color: $navbar-day-color;
@@ -208,7 +191,6 @@
                 }
             }
         }
-
     }
 
     .night_mode {
@@ -241,8 +223,43 @@
 
 @media(max-width: 768px) {
     .day_mode {
-        .navbar {
+        .navbar1, .navbar2 {
             border-bottom: 1px solid $navbar-day-color;
+            background-color: $navbar-day-color;
+
+            .logo-section {
+                background-color: $navbar-day-color;
+            }
+    
+            .list {
+                background-color: $navbar-day-color;
+            }
+    
+            .logo { color: $white; }
+    
+            .burger { color: $white; }
+    
+            a { color: $white; }
+    
+            .active {
+                background-color: $white;
+                a {
+                    color: $navbar-day-color;
+                }
+            }
+    
+            .smile {
+                .icon-day {
+                    display: inline-block;
+                }
+            }
+            .circle {
+                border: 2px solid $white;
+                background-color: $white;
+                top: 16px;
+                left: 11px;
+            }
+
             .smile {
                 color: $white;
                 .icon-night {

@@ -3,13 +3,13 @@
         flex: 50%;
         max-width: 50%;
         overflow: hidden;
-        img {
+        .photo {
             width: 100%;
         }
 
     }
       
-    .column img {
+    .column .photo {
         margin-top: 5px;
     }
 
@@ -17,7 +17,7 @@
         flex: 50%;
         max-width: 50%;
         overflow: hidden;
-        img {
+        .photo {
             width: 100%;
         }
 
@@ -25,7 +25,6 @@
 
     .thumbnail {
         position: relative;
-        //overflow: hidden;
     }
 
     .background_hover {
@@ -48,13 +47,21 @@
     }
 
     .meters {
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
         position: absolute;
-        bottom: 8px;
+        bottom: 0;
         left: 10px;
-        color: $navbar-day-color;
+        color: $white;
 
+    }
+
+    .backgorund-icon {
+        width: 100px;
+        height: auto;
+        position: absolute;
+        bottom: 4px;
+        left: 0;
     }
     
 }
@@ -79,12 +86,26 @@
             }
         }
 
-        .thumbnail{
+        .thumbnail { 
+            .meters {
+                display: none;
+            }
+
+            .backgorund-icon {
+                display: none;
+            }
             &:hover {
+                transition: 2s;
+                animation-timing-function: ease-out;
                 .background_hover {
                     display: block;
-                    transition: 2s;
-                    animation-timing-function: ease-out;
+                }
+                .meters {
+                    display: inline-block;
+                }
+
+                .backgorund-icon {
+                    display: inline-block;
                 }
             }
         }
@@ -148,8 +169,13 @@
                 text-decoration: none;
             }
         }
+
         h2 {
             text-align: center;
+        }
+
+        .thumbnail {
+            .backgorund-icon { opacity: 0.9; }
         }
     }
 }
