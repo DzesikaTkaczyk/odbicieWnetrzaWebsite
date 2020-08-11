@@ -823,6 +823,18 @@ h3 {
   color: #000;
 }
 
+.day_mode .all_projects_page .backgorund-icon-comp {
+  color: #fff;
+}
+
+.day_mode .all_projects_page .background_hover {
+  background-color: #fff;
+}
+
+.day_mode .all_projects_page .title {
+  color: #000;
+}
+
 .night_mode {
   background-color: #082a43;
   color: #fff;
@@ -893,6 +905,18 @@ h3 {
 }
 
 .night_mode .publications a {
+  color: #fff;
+}
+
+.night_mode .all_projects_page .backgorund-icon-comp {
+  color: #082a43;
+}
+
+.night_mode .all_projects_page .background_hover {
+  background-color: #082a43;
+}
+
+.night_mode .all_projects_page .title {
   color: #fff;
 }
 
@@ -992,6 +1016,9 @@ h3 {
   .day_mode .navbar2 .active a:hover {
     color: #fff;
   }
+  .day_mode .all_projects_page .meters {
+    color: #f8676c;
+  }
   .night_mode .navbar li:hover {
     background-color: #103855;
   }
@@ -1007,6 +1034,9 @@ h3 {
   }
   .night_mode .navbar .smile .icon-night {
     left: 8px;
+  }
+  .night_mode .all_projects_page .meters {
+    color: #f8676c;
   }
 }
 
@@ -1058,6 +1088,9 @@ h3 {
   .day_mode .navbar1 .smile_wrapper, .day_mode .navbar2 .smile_wrapper {
     background-color: #f8676c;
   }
+  .day_mode .all_projects_page .meters {
+    color: #fff;
+  }
   .night_mode .navbar {
     border-bottom: 1px solid #082a43;
   }
@@ -1070,6 +1103,9 @@ h3 {
   }
   .night_mode .navbar .smile_wrapper {
     background-color: #082a43;
+  }
+  .night_mode .all_projects_page .meters {
+    color: #fff;
   }
 }
 
@@ -1494,26 +1530,26 @@ h3 {
 
 .all_projects_page .thumbnail {
   position: relative;
+  overflow: hidden;
+}
+
+.all_projects_page .thumbnail .title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px 30px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .all_projects_page .background_hover {
   width: 100%;
   height: 100%;
-  background-color: #fff;
   position: absolute;
   top: 0;
   display: none;
   opacity: 0.6;
-}
-
-.all_projects_page .background_hover p {
-  width: 100;
-  padding: 15px 30px;
-  text-align: right;
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: 500;
-  color: #000;
 }
 
 .all_projects_page .meters {
@@ -1525,6 +1561,15 @@ h3 {
   width: 100px;
   height: auto;
   position: absolute;
+}
+
+.all_projects_page .backgorund-icon-comp {
+  position: absolute;
+  font-size: 130px;
+  left: -68px;
+  bottom: -65px;
+  transform: rotate(15deg);
+  opacity: 0.9;
 }
 
 @media (min-width: 769px) {
@@ -1545,33 +1590,31 @@ h3 {
     padding: 0 5px;
   }
   .all_projects_page .thumbnail .meters {
+    font-size: 15px;
+    bottom: 0;
+    left: 8px;
+    display: none;
+  }
+  .all_projects_page .thumbnail .backgorund-icon-comp {
     display: none;
   }
   .all_projects_page .thumbnail .backgorund-icon {
     display: none;
   }
-  .all_projects_page .thumbnail:hover {
-    transition: 2s;
-    animation-timing-function: ease-out;
+  .all_projects_page .thumbnail .title {
+    display: none;
   }
   .all_projects_page .thumbnail:hover .background_hover {
     display: block;
   }
+  .all_projects_page .thumbnail:hover .title {
+    display: inline-block;
+  }
   .all_projects_page .thumbnail:hover .meters {
     display: inline-block;
   }
-  .all_projects_page .thumbnail:hover .backgorund-icon {
+  .all_projects_page .thumbnail:hover .backgorund-icon-comp {
     display: inline-block;
-  }
-  .all_projects_page .meters {
-    font-size: 15px;
-    bottom: 0;
-    left: 12px;
-    color: #fff;
-  }
-  .all_projects_page .backgorund-icon {
-    bottom: 4px;
-    left: 0;
   }
   .all_projects_page .big_icon {
     top: 120px;
@@ -1610,6 +1653,9 @@ h3 {
   .all_projects_page .background_hover {
     display: none;
   }
+  .all_projects_page .title {
+    display: none;
+  }
   .all_projects_page h2 {
     text-align: center;
   }
@@ -1620,11 +1666,13 @@ h3 {
     font-size: 10px;
     bottom: 0;
     left: 12px;
-    color: #fff;
   }
   .all_projects_page .backgorund-icon {
     bottom: 4px;
     left: 0;
+  }
+  .all_projects_page .backgorund-icon-comp {
+    display: none;
   }
 }
 
@@ -1663,6 +1711,28 @@ h3 {
 
 .publications .newspaper img {
   width: 100%;
+}
+
+.publications .big_icon i {
+  top: 50px;
+}
+
+@media (min-width: 769px) {
+  .publications .big_icon i {
+    right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .publications .big_icon i {
+    right: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .publications .big_icon i {
+    right: -100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

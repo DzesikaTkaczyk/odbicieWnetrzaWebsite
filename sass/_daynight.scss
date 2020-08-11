@@ -26,6 +26,20 @@
             color: $black;
         }
     }
+
+    .all_projects_page {
+        .backgorund-icon-comp {
+            color: $white;
+        }
+
+        .background_hover {
+            background-color: $white;
+        }
+
+        .title{
+            color: $black;
+        }
+    }
 }
 
 .night_mode {
@@ -91,6 +105,20 @@
         }
 
         a {
+            color: $white;
+        }
+    }
+
+    .all_projects_page {
+        .backgorund-icon-comp {
+            color: $night-background;
+        }
+
+        .background_hover {
+            background-color: $night-background;
+        }
+
+        .title{
             color: $white;
         }
     }
@@ -211,6 +239,12 @@
                 }
             }
         }
+
+        .all_projects_page {
+            .meters {
+                color: $navbar-day-color;
+            }
+        }
     }
 
     .night_mode {
@@ -236,6 +270,12 @@
                 .icon-night {
                     left: 8px;
                 }
+            }
+        }
+
+        .all_projects_page {
+            .meters {
+                color: $navbar-day-color;
             }
         }
     }
@@ -295,6 +335,12 @@
                 background-color: $navbar-day-color;
             }
         }
+
+        .all_projects_page {
+            .meters {
+                color: $white;
+            }
+        }
     }
 
     .night_mode {
@@ -310,6 +356,12 @@
 
             .smile_wrapper {
                 background-color: $night-background;
+            }
+        }
+
+        .all_projects_page {
+            .meters {
+                color: $white;
             }
         }
     }

@@ -35,4 +35,42 @@
             width: 100%;
         }
     }
+
+    .big_icon {
+        i {
+        top: 50px;}
+    }
+}
+
+@media (min-width: 769px) {
+    .publications {
+        .big_icon {
+            i {
+                right: 0; 
+            }
+        }
+    }
+}
+
+@media(min-width: 992px) {
+    .publications {
+        .big_icon {
+            i {
+                right: 0;
+            }
+        }
+    }
+}
+
+@media(min-width: 1200px){
+    .publications {
+        .big_icon {
+            i {
+            right: -100px;}
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
 }
