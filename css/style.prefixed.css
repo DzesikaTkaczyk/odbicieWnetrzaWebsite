@@ -351,8 +351,8 @@ a {
 
 h2 {
   margin: 10px 0 0;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 300;
   line-height: 50px;
 }
 
@@ -915,6 +915,14 @@ h3 {
   color: #000;
 }
 
+.day_mode .publications .publication {
+  border-color: #000;
+}
+
+.day_mode .publications a {
+  color: #000;
+}
+
 .night_mode {
   background-color: #082a43;
   color: #fff;
@@ -977,6 +985,14 @@ h3 {
 }
 
 .night_mode .scheme {
+  color: #fff;
+}
+
+.night_mode .publications .publication {
+  border-color: #fff;
+}
+
+.night_mode .publications a {
   color: #fff;
 }
 
@@ -1728,11 +1744,43 @@ h3 {
   }
 }
 
-.publikacje {
+.publications {
   width: 100%;
 }
 
-.publikacje .newspaper img {
+.publications h1 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 50px;
+  margin: 80px 0 0 0;
+}
+
+.publications .all_pubs {
+  margin-bottom: 90px;
+}
+
+.publications .publication {
+  border-width: 1px 0 0;
+  border-style: solid;
+  padding-top: 20px;
+  margin: 50px 0;
+}
+
+.publications .publication .titleNews {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: baseline;
+      align-items: baseline;
+}
+
+.publications p {
+  font-weight: 300;
+  font-size: 11px;
+}
+
+.publications .newspaper img {
   width: 100%;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

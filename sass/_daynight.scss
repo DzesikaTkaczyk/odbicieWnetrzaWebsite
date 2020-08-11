@@ -16,6 +16,16 @@
     .scheme {
         color: $black;
     }
+
+    .publications {
+        .publication {
+            border-color: $black;
+        }
+
+        a {
+            color: $black;
+        }
+    }
 }
 
 .night_mode {
@@ -73,6 +83,16 @@
 
     .scheme {
         color: $white;
+    }
+
+    .publications {
+        .publication {
+            border-color: $white;
+        }
+
+        a {
+            color: $white;
+        }
     }
 }
 
