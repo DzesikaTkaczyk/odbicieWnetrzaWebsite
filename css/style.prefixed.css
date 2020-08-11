@@ -1614,11 +1614,11 @@ h3 {
 }
 
 .all_projects_page .meters {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
   position: absolute;
   bottom: 0;
-  left: 10px;
+  left: 12px;
   color: #fff;
 }
 
@@ -1729,6 +1729,10 @@ h3 {
 }
 
 .publikacje {
+  width: 100%;
+}
+
+.publikacje .newspaper img {
   width: 100%;
 }
 /*# sourceMappingURL=style.prefixed.css.map */
