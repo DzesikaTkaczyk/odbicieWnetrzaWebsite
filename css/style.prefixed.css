@@ -1081,10 +1081,10 @@ h3 {
     display: none;
   }
   .day_mode .navbar2 li:hover {
-    background-color: #f98589;
+    background-color: #ffe0e1;
   }
   .day_mode .navbar2 li:hover a {
-    color: #fff;
+    color: #f8676c;
   }
   .day_mode .navbar2 .active:hover {
     background-color: #f8676c;
@@ -1630,20 +1630,14 @@ h3 {
 }
 
 .all_projects_page .meters {
-  font-size: 10px;
   font-weight: 500;
   position: absolute;
-  bottom: 0;
-  left: 12px;
-  color: #fff;
 }
 
 .all_projects_page .backgorund-icon {
   width: 100px;
   height: auto;
   position: absolute;
-  bottom: 4px;
-  left: 0;
 }
 
 @media (min-width: 769px) {
@@ -1683,6 +1677,16 @@ h3 {
   .all_projects_page .thumbnail:hover .backgorund-icon {
     display: inline-block;
   }
+  .all_projects_page .meters {
+    font-size: 15px;
+    bottom: 0;
+    left: 12px;
+    color: #fff;
+  }
+  .all_projects_page .backgorund-icon {
+    bottom: 4px;
+    left: 0;
+  }
   .all_projects_page .big_icon {
     top: 120px;
   }
@@ -1719,28 +1723,23 @@ h3 {
     padding: 0 5px;
   }
   .all_projects_page .background_hover {
-    width: 100%;
     display: none;
-    -ms-flex-align: center;
-        align-items: center;
-    -ms-flex-pack: center;
-        justify-content: center;
-  }
-  .all_projects_page .background_hover p {
-    margin: 0;
-    padding: 8px 10px 20px 10px;
-    text-align: center;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: 400;
-    color: #000;
-    text-decoration: none;
   }
   .all_projects_page h2 {
     text-align: center;
   }
   .all_projects_page .thumbnail .backgorund-icon {
     opacity: 0.9;
+  }
+  .all_projects_page .meters {
+    font-size: 10px;
+    bottom: 0;
+    left: 12px;
+    color: #fff;
+  }
+  .all_projects_page .backgorund-icon {
+    bottom: 4px;
+    left: 0;
   }
 }
 

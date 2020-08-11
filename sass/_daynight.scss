@@ -197,9 +197,9 @@
 
             li { 
                 &:hover {
-                    background-color: $nav-hover-day;
+                    background-color: $nav-hover-day-white;
                     a {
-                        color: $white;
+                        color: $navbar-day-color;
                     }
                 }
             }
