@@ -10,8 +10,7 @@
     }
       
     .column img {
-        margin-top: 4px;
-        //vertical-align: middle;
+        margin-top: 5px;
     }
 
     .column2 {
@@ -26,6 +25,7 @@
 
     .thumbnail {
         position: relative;
+        //overflow: hidden;
     }
 
     .background_hover {
@@ -47,6 +47,16 @@
         }
     }
 
+    .meters {
+        font-size: 14px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 8px;
+        left: 10px;
+        color: $navbar-day-color;
+
+    }
+    
 }
 
 @media (min-width: 769px) {

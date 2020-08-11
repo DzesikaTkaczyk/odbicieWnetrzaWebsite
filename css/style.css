@@ -890,6 +890,14 @@ h3 {
   opacity: 0.7;
 }
 
+.day_mode .carousel .button {
+  color: #f8676c;
+}
+
+.day_mode .scheme {
+  color: #000;
+}
+
 .night_mode {
   background-color: #082a43;
   color: #fff;
@@ -949,6 +957,14 @@ h3 {
 
 .night_mode .welcome_section .icon-logo1 {
   color: #f8676c;
+}
+
+.night_mode .carousel .button {
+  color: #f8676c;
+}
+
+.night_mode .scheme {
+  color: #fff;
 }
 
 @media (min-width: 769px) {
@@ -1115,6 +1131,58 @@ h3 {
   z-index: -1;
   font-size: 200px;
   right: 5px;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.carousel .carousel-photo {
+  display: none;
+}
+
+.carousel .carousel-active {
+  display: inline-block;
+}
+
+.carousel .button {
+  font-size: 35px;
+  position: absolute;
+}
+
+.carousel .next-button {
+  right: -40px;
+}
+
+.carousel .prev-button {
+  position: absolute;
+  left: -40px;
+}
+
+@media (min-width: 769px) {
+  .carousel .right .icon-righthover {
+    display: none;
+  }
+  .carousel .right:hover .icon-righthover {
+    display: inline-block;
+  }
+  .carousel .left .icon-lefthover {
+    display: none;
+  }
+  .carousel .left:hover .icon-lefthover {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-lefthover {
+    display: none;
+  }
+  .icon-righthover {
+    display: none;
+  }
 }
 
 /* Sections */
@@ -1407,7 +1475,7 @@ h3 {
 }
 
 .all_projects_page .column img {
-  margin-top: 4px;
+  margin-top: 5px;
 }
 
 .all_projects_page .column2 {
@@ -1442,6 +1510,15 @@ h3 {
   line-height: 20px;
   font-weight: 500;
   color: #000;
+}
+
+.all_projects_page .meters {
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 8px;
+  left: 10px;
+  color: #f8676c;
 }
 
 @media (min-width: 769px) {
