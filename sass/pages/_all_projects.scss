@@ -24,7 +24,7 @@
     }
 
     .line {
-        border-width: 0 0 1px 0;
+        border-width: 0 0 2px 0;
         border-style: solid;
     }
 
@@ -71,6 +71,56 @@
         transform: rotate(15deg);
     }
     
+}
+
+@media (max-width: 768px) {
+    .all_projects_page {
+        margin: 0 5px;
+        .net {
+            margin: 40px 0 10px; 
+        }
+        .column {
+        flex: 100%;
+        max-width: 100%;
+            img {
+                padding: 0 5px;
+            }
+        }   
+
+        .background_hover {
+            display: none;
+        }
+
+        .title {
+            display: none;
+        }
+
+        .thumbnail {
+            .backgorund-icon { opacity: 0.9; }
+        }
+
+        .meters {
+            font-size: 10px;
+            bottom: 0;
+            left: 12px;
+    
+        }
+    
+        .backgorund-icon {
+            bottom: 4px;
+            left: 0;
+        }
+
+        .backgorund-icon-comp {
+            display: none;
+        }
+
+        h3 {
+            margin-left: 5px;
+            margin-top: 8px;
+            font-size: 16px;
+        }
+    }
 }
 
 @media (min-width: 769px) {
@@ -138,6 +188,10 @@
                 right: 0; 
             }
         }
+
+        h3 {
+            margin-top: 12px;
+        }
     }
 }
 
@@ -148,6 +202,10 @@
                 right: 0;
             }
         }
+
+        h3 {
+            margin-top: 12px;
+        }
     }
 }
 
@@ -157,57 +215,9 @@
             i {
             right: -100px;}
         }
-    }
-}
-  
-@media (max-width: 768px) {
-    .all_projects_page {
-        margin: 0 5px;
-        .net {
-            margin: 40px 0 10px; 
-        }
-        .column {
-        flex: 100%;
-        max-width: 100%;
-            img {
-                padding: 0 5px;
-            }
-        }   
-
-        .background_hover {
-            display: none;
-        }
-
-        .title {
-            display: none;
-        }
-
-        h2 {
-            text-align: center;
-        }
-
-        .thumbnail {
-            .backgorund-icon { opacity: 0.9; }
-        }
-
-        .meters {
-            font-size: 10px;
-            bottom: 0;
-            left: 12px;
-    
-        }
-    
-        .backgorund-icon {
-            bottom: 4px;
-            left: 0;
-        }
-
-        .backgorund-icon-comp {
-            display: none;
-        }
 
         h3 {
-            margin-left: 5px;
+            margin-top: 15px;
         }
     }
-}
+}  

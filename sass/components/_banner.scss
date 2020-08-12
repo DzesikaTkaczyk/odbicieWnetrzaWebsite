@@ -10,7 +10,8 @@
     }
 
     h1 {
-        font-weight: 300;
+        font-weight: 400;
+        margin-bottom: 16px;
     }
 }
 
@@ -28,8 +29,9 @@
 
         h1 {
             margin-left: 3px;
-            font-size: 30px;
+            font-size: 25px;
             margin-top: 110px;
+            margin-bottom: 10px;
         }
     }
 }
@@ -75,15 +77,15 @@
         .logo { 
             width: 60%;
             img {
-                width: 55%;
-                bottom: -80px;
+                width: 64%;
+                bottom: -84px;
                 right: 0;
             }
         }
 
         h1 {
             font-size: 35px;
-            margin-top: 200px;
+            margin-top: 220px;
         }
     }
 }

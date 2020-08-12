@@ -1223,7 +1223,8 @@ h3 {
 }
 
 .banner h1 {
-  font-weight: 300;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 768px) {
@@ -1238,8 +1239,9 @@ h3 {
   }
   .banner h1 {
     margin-left: 3px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 110px;
+    margin-bottom: 10px;
   }
 }
 
@@ -1278,13 +1280,13 @@ h3 {
     width: 60%;
   }
   .banner .logo img {
-    width: 55%;
-    bottom: -80px;
+    width: 64%;
+    bottom: -84px;
     right: 0;
   }
   .banner h1 {
     font-size: 35px;
-    margin-top: 200px;
+    margin-top: 220px;
   }
 }
 
@@ -1743,7 +1745,7 @@ h3 {
 }
 
 .all_projects_page .line {
-  border-width: 0 0 1px 0;
+  border-width: 0 0 2px 0;
   border-style: solid;
 }
 
@@ -1788,6 +1790,49 @@ h3 {
   left: -68px;
   bottom: -65px;
   transform: rotate(15deg);
+}
+
+@media (max-width: 768px) {
+  .all_projects_page {
+    margin: 0 5px;
+  }
+  .all_projects_page .net {
+    margin: 40px 0 10px;
+  }
+  .all_projects_page .column {
+    -ms-flex: 100%;
+        flex: 100%;
+    max-width: 100%;
+  }
+  .all_projects_page .column img {
+    padding: 0 5px;
+  }
+  .all_projects_page .background_hover {
+    display: none;
+  }
+  .all_projects_page .title {
+    display: none;
+  }
+  .all_projects_page .thumbnail .backgorund-icon {
+    opacity: 0.9;
+  }
+  .all_projects_page .meters {
+    font-size: 10px;
+    bottom: 0;
+    left: 12px;
+  }
+  .all_projects_page .backgorund-icon {
+    bottom: 4px;
+    left: 0;
+  }
+  .all_projects_page .backgorund-icon-comp {
+    display: none;
+  }
+  .all_projects_page h3 {
+    margin-left: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -1841,11 +1886,17 @@ h3 {
   .all_projects_page .big_icon i {
     right: 0;
   }
+  .all_projects_page h3 {
+    margin-top: 12px;
+  }
 }
 
 @media (min-width: 992px) {
   .all_projects_page .big_icon i {
     right: 0;
+  }
+  .all_projects_page h3 {
+    margin-top: 12px;
   }
 }
 
@@ -1853,49 +1904,8 @@ h3 {
   .all_projects_page .big_icon i {
     right: -100px;
   }
-}
-
-@media (max-width: 768px) {
-  .all_projects_page {
-    margin: 0 5px;
-  }
-  .all_projects_page .net {
-    margin: 40px 0 10px;
-  }
-  .all_projects_page .column {
-    -ms-flex: 100%;
-        flex: 100%;
-    max-width: 100%;
-  }
-  .all_projects_page .column img {
-    padding: 0 5px;
-  }
-  .all_projects_page .background_hover {
-    display: none;
-  }
-  .all_projects_page .title {
-    display: none;
-  }
-  .all_projects_page h2 {
-    text-align: center;
-  }
-  .all_projects_page .thumbnail .backgorund-icon {
-    opacity: 0.9;
-  }
-  .all_projects_page .meters {
-    font-size: 10px;
-    bottom: 0;
-    left: 12px;
-  }
-  .all_projects_page .backgorund-icon {
-    bottom: 4px;
-    left: 0;
-  }
-  .all_projects_page .backgorund-icon-comp {
-    display: none;
-  }
   .all_projects_page h3 {
-    margin-left: 5px;
+    margin-top: 15px;
   }
 }
 
