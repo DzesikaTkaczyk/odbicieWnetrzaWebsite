@@ -1842,4 +1842,45 @@ h3 {
   top: 50px;
 }
 
+.contact {
+  width: 100%;
+}
+
+.contact h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 90px 15px 15px 15px;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+.contact .all-contact-info {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.contact .contact-info {
+  margin: 10px 15px;
+}
+
+.contact .contact-info .contact-heading {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 00;
+  margin: 8px 0 10px 0;
+  border-bottom: 1px solid;
+  text-transform: uppercase;
+}
+
+.contact .contact-info .contact-body {
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.contact .big_icon i {
+  top: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
