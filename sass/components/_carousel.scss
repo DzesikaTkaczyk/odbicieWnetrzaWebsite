@@ -17,36 +17,72 @@
 
 
 @media(min-width: 769px) {
-    .carousel {
-        .button {
-            font-size: 35px;
-        }
-
-        .next-button {
-            right: -40px;
     
-        }
+    .project_page {
+        .carousel {
+            .button {
+                font-size: 35px;
+            }
     
-        .prev-button {
-            position: absolute;
-            left: -40px;
-        }
-
-        .right{
-            .icon-righthover { display: none; }
-            &:hover {
-                .icon-righthover { display: inline-block; }
+            .next-button {
+                right: -40px;
+        
+            }
+        
+            .prev-button {
+                position: absolute;
+                left: -40px;
+            }
+    
+            .right{
+                .icon-righthover { display: none; }
+                &:hover {
+                    .icon-righthover { display: inline-block; }
+                }
+            }
+            
+            .left {
+                .icon-lefthover { display: none; }
+                &:hover {
+                    .icon-lefthover { display: inline-block; }
+                }
             }
         }
+    }
+
+    .publications {
+        .carousel{
+            .button {
+                font-size: 25px;
+            }
+    
+            .next-button {
+                right: -28px;
         
-        .left {
-            .icon-lefthover { display: none; }
-            &:hover {
-                .icon-lefthover { display: inline-block; }
+            }
+        
+            .prev-button {
+                position: absolute;
+                left: -28px;
+            }
+    
+            .right{
+                .icon-righthover { display: none; }
+                &:hover {
+                    .icon-righthover { display: inline-block; }
+                }
+            }
+            
+            .left {
+                .icon-lefthover { display: none; }
+                &:hover {
+                    .icon-lefthover { display: inline-block; }
+                }
             }
         }
     }
 }
+
 
 @media(max-width: 768px) {
     .carousel {

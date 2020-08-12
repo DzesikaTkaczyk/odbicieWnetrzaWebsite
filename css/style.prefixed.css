@@ -1331,26 +1331,48 @@ h3 {
 }
 
 @media (min-width: 769px) {
-  .carousel .button {
+  .project_page .carousel .button {
     font-size: 35px;
   }
-  .carousel .next-button {
+  .project_page .carousel .next-button {
     right: -40px;
   }
-  .carousel .prev-button {
+  .project_page .carousel .prev-button {
     position: absolute;
     left: -40px;
   }
-  .carousel .right .icon-righthover {
+  .project_page .carousel .right .icon-righthover {
     display: none;
   }
-  .carousel .right:hover .icon-righthover {
+  .project_page .carousel .right:hover .icon-righthover {
     display: inline-block;
   }
-  .carousel .left .icon-lefthover {
+  .project_page .carousel .left .icon-lefthover {
     display: none;
   }
-  .carousel .left:hover .icon-lefthover {
+  .project_page .carousel .left:hover .icon-lefthover {
+    display: inline-block;
+  }
+  .publications .carousel .button {
+    font-size: 25px;
+  }
+  .publications .carousel .next-button {
+    right: -28px;
+  }
+  .publications .carousel .prev-button {
+    position: absolute;
+    left: -28px;
+  }
+  .publications .carousel .right .icon-righthover {
+    display: none;
+  }
+  .publications .carousel .right:hover .icon-righthover {
+    display: inline-block;
+  }
+  .publications .carousel .left .icon-lefthover {
+    display: none;
+  }
+  .publications .carousel .left:hover .icon-lefthover {
     display: inline-block;
   }
 }
@@ -1371,6 +1393,40 @@ h3 {
   .carousel .prev-button {
     position: absolute;
     left: -30px;
+  }
+}
+
+.banner-project-page {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-project-page img {
+  position: relative;
+}
+
+@media (min-width: 769px) {
+  .banner-project-page {
+    width: 100%;
+  }
+  .banner-project-page img {
+    width: 100%;
+    bottom: 100px;
+    margin-bottom: -23.5%;
+  }
+  .banner-project-page .artystyczna_przestrzen {
+    bottom: 100px;
+    margin-bottom: -23.5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-project-page {
+    width: 100%;
+    height: 100%;
+  }
+  .banner-project-page img {
+    width: 100%;
   }
 }
 
@@ -1848,9 +1904,9 @@ h3 {
 }
 
 .publications h1 {
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 50px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
   margin: 80px 0 0 0;
 }
 
@@ -1859,24 +1915,20 @@ h3 {
 }
 
 .publications .publication {
-  border-width: 1px 0 0;
-  border-style: solid;
-  padding-top: 20px;
-  margin: 50px 0;
+  margin: 20px 15px;
 }
 
-.publications .publication .titleNews {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  -ms-flex-align: baseline;
-      align-items: baseline;
-}
-
-.publications p {
+.publications .publication .title {
+  font-size: 20px;
   font-weight: 300;
-  font-size: 11px;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.publications .publication .date {
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
 }
 
 .publications .newspaper img {
@@ -1885,23 +1937,5 @@ h3 {
 
 .publications .big_icon i {
   top: 50px;
-}
-
-@media (min-width: 769px) {
-  .publications .big_icon i {
-    right: 0;
-  }
-}
-
-@media (min-width: 992px) {
-  .publications .big_icon i {
-    right: 0;
-  }
-}
-
-@media (min-width: 1200px) {
-  .publications .big_icon i {
-    right: -100px;
-  }
 }
 /*# sourceMappingURL=style.prefixed.css.map */
