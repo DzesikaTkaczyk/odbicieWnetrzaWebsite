@@ -1115,28 +1115,75 @@ h3 {
   position: relative;
 }
 
-.banner .logo {
-  width: 60%;
-}
-
 .banner .logo img {
   z-index: -1;
-  width: 55%;
   position: absolute;
-  bottom: -80px;
   right: 0;
 }
 
 .banner h1 {
-  font-size: 35px;
   font-weight: 300;
-  margin-top: 200px;
+}
+
+@media (max-width: 768px) {
+  .banner .logo {
+    width: 50%;
+  }
+  .banner .logo img {
+    max-width: 250px;
+    width: 60%;
+    bottom: -80px;
+    right: 10px;
+  }
+  .banner h1 {
+    margin-left: 3px;
+    font-size: 30px;
+    margin-top: 110px;
+  }
 }
 
 @media (min-width: 769px) {
-  .banner .artystyczna_przestrzen {
-    bottom: 100px;
-    margin-bottom: -23.5%;
+  .banner .logo {
+    width: 50%;
+  }
+  .banner .logo img {
+    width: 60%;
+    bottom: -80px;
+    right: 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner .logo {
+    width: 70%;
+  }
+  .banner .logo img {
+    width: 60%;
+    bottom: -80px;
+    right: 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+    margin-top: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner .logo {
+    width: 60%;
+  }
+  .banner .logo img {
+    width: 55%;
+    bottom: -80px;
+    right: 0;
+  }
+  .banner h1 {
+    font-size: 35px;
+    margin-top: 200px;
   }
 }
 
@@ -1675,6 +1722,9 @@ h3 {
   }
   .all_projects_page .backgorund-icon-comp {
     display: none;
+  }
+  .all_projects_page h3 {
+    margin-left: 5px;
   }
 }
 
