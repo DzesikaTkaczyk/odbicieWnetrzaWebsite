@@ -1,16 +1,30 @@
 .banner {
     width: 100%;
-    overflow: hidden;
-    img {
-        position: relative;
+    position: relative;
+
+    .logo{ 
+        width: 60%;
+        img {
+        z-index: -1;
+        width: 55%;
+        position: absolute;
+        bottom: -80px;
+        right: 0;
+    }
+    }
+
+    
+
+    h1 {
+        font-size: 35px;
+        font-weight: 300;
+        margin-top: 200px;
     }
 }
 
 @media(min-width: 769px) {
     .banner {
-        width: 100%;
         img {
-            width: 100%;
         }
 
         .artystyczna_przestrzen {
@@ -22,10 +36,7 @@
 
 @media(max-width: 768px) {
     .banner {
-        width: 100%;
-        height: 100%;
         img {
-            width: 100%;
         }
     }
 }

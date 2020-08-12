@@ -23,12 +23,6 @@
 
     }
 
-    .banner-wrapper {
-        img {
-            width: 100%;
-        }
-    }
-
     .line {
         border-width: 0 0 1px 0;
         border-style: solid;
@@ -75,7 +69,6 @@
         left: -68px;
         bottom: -65px;
         transform: rotate(15deg);
-        opacity: 0.9;
     }
     
 }
@@ -140,7 +133,7 @@
         }
 
         .big_icon {
-            top: 120px;
+            top: 105px;
             i {
                 right: 0; 
             }
