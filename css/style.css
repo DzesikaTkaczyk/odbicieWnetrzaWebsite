@@ -1137,13 +1137,13 @@ h3 {
   .banner .logo img {
     max-width: 250px;
     width: 60%;
-    bottom: -70px;
+    bottom: -60px;
     right: 10px;
   }
   .banner h1 {
     margin-left: 3px;
     font-size: 25px;
-    margin-top: 120px;
+    margin-top: 125px;
     margin-bottom: 10px;
   }
 }
