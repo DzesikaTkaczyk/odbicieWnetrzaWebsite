@@ -1000,6 +1000,10 @@ h3 {
   color: #fff;
 }
 
+.night_mode .scheme img {
+  fill: #fff;
+}
+
 .night_mode .publications .publication {
   border-color: #fff;
 }
@@ -1234,13 +1238,13 @@ h3 {
   .banner .logo img {
     max-width: 250px;
     width: 60%;
-    bottom: -80px;
+    bottom: -70px;
     right: 10px;
   }
   .banner h1 {
     margin-left: 3px;
     font-size: 25px;
-    margin-top: 110px;
+    margin-top: 120px;
     margin-bottom: 10px;
   }
 }
@@ -1976,7 +1980,7 @@ h3 {
 }
 
 .contact .contact-info {
-  margin: 10px 15px;
+  margin: 10px 15px 30px;
 }
 
 .contact .contact-info .contact-heading {

@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'odbiciewnetrza';
-  src: url('../font/odbiciewnetrza.eot?43459168');
-  src: url('../font/odbiciewnetrza.eot?43459168#iefix') format('embedded-opentype'),
-       url('../font/odbiciewnetrza.woff2?43459168') format('woff2'),
-       url('../font/odbiciewnetrza.woff?43459168') format('woff'),
-       url('../font/odbiciewnetrza.ttf?43459168') format('truetype'),
-       url('../font/odbiciewnetrza.svg?43459168#odbiciewnetrza') format('svg');
+  src: url('../font/odbiciewnetrza.eot?33359840');
+  src: url('../font/odbiciewnetrza.eot?33359840#iefix') format('embedded-opentype'),
+       url('../font/odbiciewnetrza.woff2?33359840') format('woff2'),
+       url('../font/odbiciewnetrza.woff?33359840') format('woff'),
+       url('../font/odbiciewnetrza.ttf?33359840') format('truetype'),
+       url('../font/odbiciewnetrza.svg?33359840#odbiciewnetrza') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'odbiciewnetrza';
-    src: url('../font/odbiciewnetrza.svg?43459168#odbiciewnetrza') format('svg');
+    src: url('../font/odbiciewnetrza.svg?33359840#odbiciewnetrza') format('svg');
   }
 }
 */
@@ -57,10 +57,12 @@
  
 .icon-logo1:before { content: '\e800'; } /* '' */
 .icon-wnetrza:before { content: '\e801'; } /* '' */
+.icon-phone:before { content: '\e802'; } /* '' */
 .icon-day:before { content: '\e803'; } /* '' */
 .icon-night:before { content: '\e804'; } /* '' */
 .icon-smile:before { content: '\e805'; } /* '' */
 .icon-pracownia:before { content: '\e806'; } /* '' */
+.icon-mail:before { content: '\e807'; } /* '' */
 .icon-kontakt:before { content: '\e809'; } /* '' */
 .icon-logo2:before { content: '\e80a'; } /* '' */
 .icon-domy:before { content: '\e80b'; } /* '' */
@@ -70,4 +72,6 @@
 .icon-lefthover:before { content: '\e80f'; } /* '' */
 .icon-righthover:before { content: '\e810'; } /* '' */
 .icon-right:before { content: '\e811'; } /* '' */
+.icon-facebook:before { content: '\f09a'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
+.icon-linkedin:before { content: '\f0e1'; } /* '' */
