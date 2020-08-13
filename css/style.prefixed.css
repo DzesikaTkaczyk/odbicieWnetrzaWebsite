@@ -1768,6 +1768,15 @@ h3 {
   font-weight: 400;
 }
 
+.all_projects_page .thumbnail .icon-wnetrza {
+  transform: rotate(15deg);
+}
+
+.all_projects_page .thumbnail .icon-domy {
+  left: -80px;
+  bottom: -75px;
+}
+
 .all_projects_page .background_hover {
   width: 100%;
   height: 100%;
@@ -1793,7 +1802,6 @@ h3 {
   font-size: 130px;
   left: -68px;
   bottom: -65px;
-  transform: rotate(15deg);
 }
 
 @media (max-width: 768px) {
