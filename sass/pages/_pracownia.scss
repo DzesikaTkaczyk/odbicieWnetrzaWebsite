@@ -1,0 +1,36 @@
+.pracownia {
+    width: 100%;
+
+    h1 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 40px;
+        margin: 90px 15px 15px 15px;
+        border-bottom: 2px solid;
+        padding-bottom: 5px;
+    }
+
+    .pracownia-content {
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
+
+    .pracownia-text {
+        margin: 10px 15px 30px;
+
+        p {
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 400;
+        }
+    }
+
+    .contact-map {
+
+    }
+
+    .big_icon {
+        i {
+        top: 50px;}
+    }
+}

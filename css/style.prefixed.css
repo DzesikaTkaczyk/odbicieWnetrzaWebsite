@@ -2009,4 +2009,36 @@ h3 {
 .contact .big_icon i {
   top: 50px;
 }
+
+.pracownia {
+  width: 100%;
+}
+
+.pracownia h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  margin: 90px 15px 15px 15px;
+  border-bottom: 2px solid;
+  padding-bottom: 5px;
+}
+
+.pracownia .pracownia-content {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+.pracownia .pracownia-text {
+  margin: 10px 15px 30px;
+}
+
+.pracownia .pracownia-text p {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.pracownia .big_icon i {
+  top: 50px;
+}
 /*# sourceMappingURL=style.prefixed.css.map */
