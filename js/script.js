@@ -79,4 +79,20 @@ function prevPicture () {
   }
 }
 
-//day/night
+//day or night mode
+
+const dayNightButton = document.querySelector('.smile');
+
+dayNightButton.addEventListener('click', (e) => {
+  console.log(dayNightButton)
+
+  console.log(document.body.classList)
+  if (document.body.classList.contains('day_mode')){
+    document.body.classList.remove('day_mode');
+    document.body.classList.add('night_mode')
+  }
+  else if (document.body.classList.contains('night_mode')){
+    document.body.classList.remove('night_mode');
+    document.body.classList.add('day_mode')
+  }
+})

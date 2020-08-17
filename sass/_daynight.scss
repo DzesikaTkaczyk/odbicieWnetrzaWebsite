@@ -13,8 +13,14 @@
         }
     }
 
-    .scheme {
-        color: $black;
+    .project_page {
+        .scheme-day {
+            display: block;
+        }
+
+        .scheme-night {
+            display: none;
+        }
     }
 
     .publications {
@@ -95,10 +101,13 @@
         }
     }
 
-    .scheme {
-        color: $white;
-        img {
-            fill: $white;
+    .project_page {
+        .scheme-day {
+            display: none;
+        }
+
+        .scheme-night {
+            display: block;
         }
     }
 

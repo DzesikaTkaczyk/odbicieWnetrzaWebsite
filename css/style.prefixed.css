@@ -911,8 +911,12 @@ h3 {
   color: #f8676c;
 }
 
-.day_mode .scheme {
-  color: #000;
+.day_mode .project_page .scheme-day {
+  display: block;
+}
+
+.day_mode .project_page .scheme-night {
+  display: none;
 }
 
 .day_mode .publications .publication {
@@ -996,12 +1000,12 @@ h3 {
   color: #f8676c;
 }
 
-.night_mode .scheme {
-  color: #fff;
+.night_mode .project_page .scheme-day {
+  display: none;
 }
 
-.night_mode .scheme img {
-  fill: #fff;
+.night_mode .project_page .scheme-night {
+  display: block;
 }
 
 .night_mode .publications .publication {
