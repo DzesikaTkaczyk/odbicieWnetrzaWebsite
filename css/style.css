@@ -921,11 +921,11 @@ h3 {
 }
 
 .night_mode .all_projects_page .background_hover {
-  background-color: #fff;
+  background-color: #082a43;
 }
 
 .night_mode .all_projects_page .title {
-  color: #000;
+  color: #fff;
 }
 
 @media (min-width: 992px) {
