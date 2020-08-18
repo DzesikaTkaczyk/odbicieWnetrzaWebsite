@@ -15,17 +15,7 @@ function script_js () {
 	  e.preventDefault();
 	  toggleMenu();
     });
-
-    const smile = document.getElementById('smile')
-    function toggleColors() { 
-        document.querySelector('.day_mode').classList.toggle('.night_mode');
-    }
-
-    smile.addEventListener('click', function(e){
-        e.preventDefault();
-        toggleColors()
-    })
-  }
+}
 
 //carousels
 const carousels = document.querySelectorAll('.carousel');
