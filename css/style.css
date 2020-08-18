@@ -1310,6 +1310,10 @@ h3 {
     bottom: 100px;
     margin-bottom: -23.5%;
   }
+  .banner-project-page .kamienica {
+    bottom: 25px;
+    margin-bottom: -23.5%;
+  }
 }
 
 @media (max-width: 991px) {
