@@ -92,7 +92,7 @@ dayNightButton.addEventListener('click', (e) => {
   } else if (mode === 'night_mode'){
     dayMode();
   } else {
-    nightMode()
+    dayMode()
   }
 });
 

@@ -136,7 +136,7 @@
     }
 }
 
-@media(min-width: 769px) {
+@media(min-width: 992px) {
     .day_mode {
         .navbar1 {
             .logo-section {
@@ -293,7 +293,7 @@
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 991px) {
     .day_mode {
         .navbar1, .navbar2 {
             border-bottom: 1px solid $navbar-day-color;
@@ -358,6 +358,7 @@
     .night_mode {
         .navbar {
             border-bottom: 1px solid $night-background;
+            background-color: $night-background;
             .smile {
                 background-color: $night-background;
                 justify-content: center;

@@ -26,14 +26,14 @@
   //width: auto;
 }
 
-@media(min-width: 769px) {
+@media(min-width: 992px) {
   .side-content {
     position: absolute;
     top:0;
     width: 100%;
   }
 }
-@media(max-width: 768px) {
+@media(max-width: 991px) {
   .side-content {
     position: absolute;
     top:48px;
@@ -56,11 +56,11 @@
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 767px) {
   @include grid('sm');
 }
 
-@media(min-width: 769px) {
+@media(min-width: 768px) {
   @include grid('md');
 }
 

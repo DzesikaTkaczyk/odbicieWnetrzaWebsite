@@ -81,7 +81,7 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .all_projects_page {
         margin: 0 5px;
         .net {
@@ -131,7 +131,7 @@
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 992px) {
     .all_projects_page {
         margin: 0 20px;
         .net {
@@ -194,20 +194,6 @@
             top: 105px;
             i {
                 right: 0; 
-            }
-        }
-
-        h3 {
-            margin-top: 12px;
-        }
-    }
-}
-
-@media(min-width: 992px) {
-    .all_projects_page {
-        .big_icon {
-            i {
-                right: 0;
             }
         }
 
