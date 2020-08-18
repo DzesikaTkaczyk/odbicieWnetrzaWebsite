@@ -921,14 +921,31 @@ h3 {
 }
 
 .night_mode .all_projects_page .background_hover {
-  background-color: #082a43;
+  background-color: #fff;
 }
 
 .night_mode .all_projects_page .title {
-  color: #fff;
+  color: #000;
 }
 
 @media (min-width: 992px) {
+  .day_mode .navbar1 .smile, .day_mode .navbar2 .smile {
+    color: #f8676c;
+  }
+  .day_mode .navbar1 .smile .icon-night, .day_mode .navbar2 .smile .icon-night {
+    display: none;
+    left: 8px;
+  }
+  .day_mode .navbar1 .smile .icon-day, .day_mode .navbar2 .smile .icon-day {
+    display: inline-block;
+    left: 8px;
+  }
+  .day_mode .navbar1 .circle, .day_mode .navbar2 .circle {
+    border: 2px solid #fff;
+    background-color: #fff;
+    top: 16px;
+    left: 11px;
+  }
   .day_mode .navbar1 .logo-section {
     background-color: #f8676c;
   }
@@ -949,22 +966,6 @@ h3 {
   }
   .day_mode .navbar1 .active a {
     color: #f8676c;
-  }
-  .day_mode .navbar1 .smile .icon-day {
-    display: inline-block;
-  }
-  .day_mode .navbar1 .circle {
-    border: 2px solid #fff;
-    background-color: #fff;
-    top: 16px;
-    left: 11px;
-  }
-  .day_mode .navbar1 .smile {
-    left: 8px;
-    color: #f8676c;
-  }
-  .day_mode .navbar1 .smile .icon-night {
-    display: none;
   }
   .day_mode .navbar1 li:hover {
     background-color: #f98589;
@@ -995,22 +996,6 @@ h3 {
   }
   .day_mode .navbar2 .active a {
     color: #fff;
-  }
-  .day_mode .navbar2 .smile .icon-day {
-    display: inline-block;
-  }
-  .day_mode .navbar2 .circle {
-    border: 2px solid #fff;
-    background-color: #fff;
-    top: 16px;
-    left: 11px;
-  }
-  .day_mode .navbar2 .smile {
-    left: 8px;
-    color: #f8676c;
-  }
-  .day_mode .navbar2 .smile .icon-night {
-    display: none;
   }
   .day_mode .navbar2 li:hover {
     background-color: #ffe0e1;

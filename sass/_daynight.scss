@@ -82,6 +82,7 @@
                 display: inline-block;
             }
         }
+
         .circle {
             border: 2px solid $navbar-night-color;
             background-color: $navbar-night-color;
@@ -127,17 +128,38 @@
         }
 
         .background_hover {
-            background-color: $night-background;
+            background-color: $white;
         }
 
         .title{
-            color: $white;
+            color: $black;
         }
     }
 }
 
 @media(min-width: 992px) {
     .day_mode {
+        .navbar1, .navbar2 { 
+            .smile {
+                color: $navbar-day-color;
+                .icon-night {
+                    display: none;
+                    left: 8px;
+                }
+                .icon-day {
+                    display: inline-block;
+                    left: 8px;
+                }
+            }
+            
+            .circle {
+                border: 2px solid $white;
+                background-color: $white;
+                top: 16px;
+                left: 11px;
+            }
+        }
+
         .navbar1 {
             .logo-section {
                 background-color: $navbar-day-color;
@@ -157,26 +179,6 @@
                 background-color: $white;
                 a {
                     color: $navbar-day-color;
-                }
-            }
-    
-            .smile {
-                .icon-day {
-                    display: inline-block;
-                }
-            }
-            .circle {
-                border: 2px solid $white;
-                background-color: $white;
-                top: 16px;
-                left: 11px;
-            }
-
-            .smile {
-                left: 8px;
-                color: $navbar-day-color;
-                .icon-night {
-                    display: none;
                 }
             }
 
@@ -213,25 +215,6 @@
                 background-color: $navbar-day-color;
                 a {
                     color: $white;
-                }
-            }
-    
-            .smile {
-                .icon-day {
-                    display: inline-block;
-                }
-            }
-            .circle {
-                border: 2px solid $white;
-                background-color: $white;
-                top: 16px;
-                left: 11px;
-            }
-            .smile {
-                left: 8px;
-                color: $navbar-day-color;
-                .icon-night {
-                    display: none;
                 }
             }
 
