@@ -80,19 +80,42 @@ function prevPicture () {
 }
 
 //day or night mode
-
 const dayNightButton = document.querySelector('.smile');
+let mode;
+mode = localStorage.getItem('mode');
 
+//first start of the webside
+(function() {
+  if (mode === 'day_mode') {
+    dayMode();
+  } else if (mode === 'night_mode'){
+    nightMode()
+  } else {
+    dayMode()
+  }
+})()
+
+//button
 dayNightButton.addEventListener('click', (e) => {
-  console.log(dayNightButton)
+  if (mode === 'day_mode') {
+    nightMode()
+  } else if (mode === 'night_mode'){
+    dayMode();
+  } else {
+    nightMode()
+  }
+});
 
-  console.log(document.body.classList)
-  if (document.body.classList.contains('day_mode')){
-    document.body.classList.remove('day_mode');
-    document.body.classList.add('night_mode')
-  }
-  else if (document.body.classList.contains('night_mode')){
-    document.body.classList.remove('night_mode');
-    document.body.classList.add('day_mode')
-  }
-})
+function dayMode() {
+  document.body.classList.remove('night_mode');
+  document.body.classList.add('day_mode')
+  localStorage.setItem('mode', 'day_mode');
+  mode = localStorage.getItem('mode');
+}
+
+function nightMode() {
+  document.body.classList.remove('day_mode');
+  document.body.classList.add('night_mode')
+  localStorage.setItem('mode', 'night_mode');
+  mode = localStorage.getItem('mode');
+}
