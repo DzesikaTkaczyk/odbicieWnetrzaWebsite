@@ -1314,6 +1314,9 @@ h3 {
     bottom: 25px;
     margin-bottom: -23.5%;
   }
+  .banner-project-page .miszmasz {
+    bottom: 90px;
+  }
 }
 
 @media (max-width: 991px) {
