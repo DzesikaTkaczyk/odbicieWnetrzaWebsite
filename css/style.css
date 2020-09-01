@@ -1589,7 +1589,7 @@ h3 {
 
 @media (min-width: 992px) {
   .project_page .carousel-text {
-    margin: 0 50px;
+    margin: 10px 50px;
   }
   .project_page .photo {
     margin: 10px 10px;
@@ -1604,7 +1604,7 @@ h3 {
     margin: 5px 5px;
   }
   .project_page .carousel-text {
-    padding: 20px 5px 35px;
+    padding: 5px 30px 20px;
   }
 }
 
