@@ -55,6 +55,9 @@
         height: 100%;
         display: flex;
         align-items: center;
+        ::first-letter {
+            font-size: 40px;
+        }
     }
 
     .signature {

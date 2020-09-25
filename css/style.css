@@ -1000,9 +1000,6 @@ h3 {
   .day_mode .navbar2 li:hover {
     background-color: #ffe0e1;
   }
-  .day_mode .navbar2 li:hover a {
-    color: #f8676c;
-  }
   .day_mode .navbar2 .active:hover {
     background-color: #f8676c;
   }
@@ -1591,6 +1588,10 @@ h3 {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.project_page .carousel-text ::first-letter {
+  font-size: 40px;
 }
 
 .project_page .signature {
